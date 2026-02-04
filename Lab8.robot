@@ -1,6 +1,11 @@
 *** Settings ***
 Library    SeleniumLibrary
 
+*** Test Cases ***
+Open Computing KKU Website
+    Open Browser To Login Page
+    Title Should Be    คณะวิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น
+
 *** Keywords ***
 Open Browser To Login Page
     ${chrome_options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys
