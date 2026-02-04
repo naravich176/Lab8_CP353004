@@ -4,7 +4,7 @@ Library    SeleniumLibrary
 *** Test Cases ***
 Open Computing KKU Website
     Open Browser To Login Page
-    Title Should Be    คณะวิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น
+    Title Should Be    วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น - College of Computing, Khon Kaen University
 
 *** Keywords ***
 Open Browser To Login Page
